@@ -1,3 +1,3 @@
 function stupidButton() {
-    alert("weezing time lol")
+    document.getElementById(weez).alert("weezing time lol")
 }
