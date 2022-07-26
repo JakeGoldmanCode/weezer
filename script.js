@@ -16,3 +16,11 @@ function notSoStupidButtonHidden() {
     document.getElementById("buttons").style.diplay = "none";
     document.getElementById("back").style.display = "block";
 }
+
+function backButton() {
+    document.getElementById("text").style.display = "block";
+    document.getElementById("description").style.display = "block";
+    document.getElementById("images").style.display = "block";
+    document.getElementById("buttons").style.diplay = "block";
+    document.getElementById("back").style.display = "none";
+}
