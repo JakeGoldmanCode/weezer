@@ -2,7 +2,7 @@ function hiddenButton() {
     document.getElementById("back").style.display = "none";
 }
 
-window.onload = hiddenButton;
+hiddenButton;
 
 function stupidButton() {
     alert("weezing time lol");
