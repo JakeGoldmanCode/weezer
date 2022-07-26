@@ -6,8 +6,6 @@ function showDumbthing() {
     document.getElementById("backButton").style.display = "block";
 }
 
-window.onload = hideDumbthing();
-
 function stupidButton() {
     alert("weezing time lol");
     window.open("https://www.youtube.com/watch?v=cQzMHhRCTYw");
