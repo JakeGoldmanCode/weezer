@@ -29,3 +29,5 @@ function dumbthingDoesSomething() {
     document.getElementById("button1").style.diplay = "block";
     hideDumbthing();
 }
+
+//ahh i hat
