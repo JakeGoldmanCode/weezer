@@ -1,3 +1,5 @@
+hideDumbthing()
+
 function hideDumbthing() {
     document.getElementById("backButton").style.display = "none";
 }
@@ -15,7 +17,8 @@ function notSoStupidButtonHidden() {
     document.getElementById("text").style.display = "none";
     document.getElementById("description").style.display = "none";
     document.getElementById("images").style.display = "none";
-    document.getElementById("buttons").style.diplay = "none";
+    document.getElementById("button1").style.diplay = "none";
+    document.getElementById("button2").style.display = "none";
     showDumbthing();
 }
 
@@ -23,6 +26,6 @@ function dumbthingDoesSomething() {
     document.getElementById("text").style.display = "block";
     document.getElementById("description").style.display = "block";
     document.getElementById("images").style.display = "block";
-    document.getElementById("buttons").style.diplay = "block";
+    document.getElementById("button1").style.diplay = "block";
     hideDumbthing();
 }
