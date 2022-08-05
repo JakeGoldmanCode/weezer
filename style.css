@@ -1,8 +1,9 @@
 h1 {
-    color:#189BCC;
+    color: #b8a9c9;
 }
 html {
-    background-color: cyan;
+    background-color: #189BCC
+;
 }
 .center {
     display: block;
@@ -43,5 +44,5 @@ html {
 }
 .cool-font {
     font-family: verdana;
-    color:#189BCC;
+    color: #b8a9c9;
 }
